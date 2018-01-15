@@ -42,7 +42,7 @@ public class WekaArffTest {
 
 		data.add(new DenseInstance(1.0, values));
 
-		BufferedWriter writer = new BufferedWriter(new FileWriter("E:/learn/pro/wekaArffTest/arff.txt"));
+		BufferedWriter writer = new BufferedWriter(new FileWriter("E:/learn/pro/wekaArffTest/test.arff"));
 		writer.write(data.toString());
 		writer.close();
 
