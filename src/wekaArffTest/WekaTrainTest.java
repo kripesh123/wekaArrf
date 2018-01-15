@@ -61,7 +61,7 @@ public class WekaTrainTest {
 				clsLabel = nb.classifyInstance(test.instance(i));
 				labeled.instance(i).setClassValue(clsLabel);
 				double[] predictionOutput = nb.distributionForInstance(test.instance(i));
-				double predictionProbablity = predictionOutput[i];
+				double predictionProbablity = predictionOutput[1];
 				System.out.println(predictionProbablity);
 			} catch (Exception e) {
 
@@ -73,7 +73,7 @@ public class WekaTrainTest {
 		BufferedWriter writer;
 		try {
 			writer = new BufferedWriter(new FileWriter(outArff));
-			writer.write(labeled.toSummaryString());
+			writer.write(labeled.toString());
 			writer.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

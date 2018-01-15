@@ -1,10 +1,14 @@
-Relation Name:  iris-test
-Num Instances:  6
-Num Attributes: 5
+@relation iris-test
 
-     Name                      Type  Nom  Int Real     Missing      Unique  Dist
-1 sepallength                Num   0%  17%  83%     0 /  0%     6 /100%     6 
-2 sepalwidth                 Num   0%  17%  83%     0 /  0%     6 /100%     6 
-3 petallength                Num   0%   0% 100%     0 /  0%     3 / 50%     4 
-4 petalwidth                 Num   0%   0% 100%     0 /  0%     1 / 17%     2 
-5 class                      Nom  83%   0%   0%     1 / 17%     0 /  0%     1 
+@attribute sepallength numeric
+@attribute sepalwidth numeric
+@attribute petallength numeric
+@attribute petalwidth numeric
+@attribute class {Iris-setosa,Iris-versicolor,Iris-virginica}
+
+@data
+5.1,3.5,1.4,0.2,Iris-setosa
+4.9,3,1.4,0.2,Iris-setosa
+7,3.2,4.7,1.4,Iris-versicolor
+6.4,3.2,4.5,1.5,Iris-versicolor
+2.1,5.2,2.2,6,Iris-setosa
