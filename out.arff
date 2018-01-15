@@ -1,0 +1,10 @@
+Relation Name:  iris-test
+Num Instances:  6
+Num Attributes: 5
+
+     Name                      Type  Nom  Int Real     Missing      Unique  Dist
+1 sepallength                Num   0%  17%  83%     0 /  0%     6 /100%     6 
+2 sepalwidth                 Num   0%  17%  83%     0 /  0%     6 /100%     6 
+3 petallength                Num   0%   0% 100%     0 /  0%     3 / 50%     4 
+4 petalwidth                 Num   0%   0% 100%     0 /  0%     1 / 17%     2 
+5 class                      Nom  83%   0%   0%     1 / 17%     0 /  0%     1 
