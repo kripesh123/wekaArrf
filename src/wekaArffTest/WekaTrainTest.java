@@ -55,7 +55,7 @@ public class WekaTrainTest {
 
 		labeled = new Instances(test);
 
-		for (int i = 0; i < test.numAttributes(); i++) {
+		for (int i = 0; i < test.numInstances(); i++) {
 			double clsLabel;
 			try {
 				clsLabel = nb.classifyInstance(test.instance(i));
